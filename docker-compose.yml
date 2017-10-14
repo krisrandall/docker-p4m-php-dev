@@ -5,6 +5,7 @@ services:
    db:
      image: mysql:5.7
      volumes:
+       - ./shared:/shared
        - db_data:/var/lib/mysql
      restart: always
      environment:

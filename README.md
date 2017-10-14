@@ -14,14 +14,19 @@ Parcel 4 Me **PHP** repos :
 
 ### Getting Started
 
-To start it up do this : `$ docker-compose up -d`    
+To **start** it up do this : `$ docker-compose up -d`    
 Then go to [http://localhost:8000/index.php](http://localhost:8000/index.php) 
 
-To see it running : `$ docker ps`      
+To **see it running** : `$ docker ps`      
 
-To stop it : `$ docker kill [CONTAINER ID 1, ..]`    
+To **stop** it : `$ docker kill [CONTAINER ID 1, ..]`    
+OR : `$ docker-compose stop`     
 
-To ssh into running container : `$ docker exec -i -t [CONTAINER ID] /bin/bash`     
+
+To **ssh** into running container : `$ docker exec -i -t [CONTAINER ID] /bin/bash`     
+
+To **stop** the containers in such a way that the **DB will not persist** : `$ docker-compose down -v`       
+
 
 
 

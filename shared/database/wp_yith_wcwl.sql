@@ -1,0 +1,11 @@
+CREATE TABLE `wp_yith_wcwl` (  `ID` int(11) NOT NULL AUTO_INCREMENT,  `prod_id` int(11) NOT NULL,  `quantity` int(11) NOT NULL,  `user_id` int(11) NOT NULL,  `wishlist_id` int(11) DEFAULT NULL,  `dateadded` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,  PRIMARY KEY (`ID`),  KEY `prod_id` (`prod_id`)) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+/*!40000 ALTER TABLE `wp_yith_wcwl` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_yith_wcwl` VALUES('1', '104', '1', '4', '2', '2017-05-31 14:16:25');
+INSERT INTO `wp_yith_wcwl` VALUES('2', '107', '1', '3', '1', '2017-06-06 02:44:06');
+INSERT INTO `wp_yith_wcwl` VALUES('3', '107', '1', '11', '3', '2017-09-21 08:35:12');
+INSERT INTO `wp_yith_wcwl` VALUES('4', '214', '1', '11', '3', '2017-09-21 08:37:03');
+/*!40000 ALTER TABLE `wp_yith_wcwl` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

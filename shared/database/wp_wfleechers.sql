@@ -1,0 +1,17 @@
+CREATE TABLE `wp_wfleechers` (  `eMin` int(10) unsigned NOT NULL,  `IP` binary(16) NOT NULL,  `hits` int(10) unsigned NOT NULL,  PRIMARY KEY (`eMin`,`IP`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40000 ALTER TABLE `wp_wfleechers` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_wfleechers` VALUES('24837435', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+INSERT INTO `wp_wfleechers` VALUES('24837437', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+INSERT INTO `wp_wfleechers` VALUES('24837441', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+INSERT INTO `wp_wfleechers` VALUES('24837442', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '2');
+INSERT INTO `wp_wfleechers` VALUES('24837443', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+INSERT INTO `wp_wfleechers` VALUES('24837448', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+INSERT INTO `wp_wfleechers` VALUES('24837450', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+INSERT INTO `wp_wfleechers` VALUES('24837458', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+INSERT INTO `wp_wfleechers` VALUES('24837459', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+INSERT INTO `wp_wfleechers` VALUES('24837460', '\0\0\0\0\0\0\0\0\0\0ÿÿvÐ±‚', '1');
+/*!40000 ALTER TABLE `wp_wfleechers` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

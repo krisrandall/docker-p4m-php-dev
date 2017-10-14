@@ -1,0 +1,7 @@
+CREATE TABLE `wp_wfnet404s` (  `sig` binary(16) NOT NULL,  `ctime` int(10) unsigned NOT NULL,  `URI` varchar(1000) NOT NULL,  PRIMARY KEY (`sig`),  KEY `k1` (`ctime`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40000 ALTER TABLE `wp_wfnet404s` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+/*!40000 ALTER TABLE `wp_wfnet404s` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;
